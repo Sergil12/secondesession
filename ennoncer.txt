@@ -1,0 +1,120 @@
+CAHIER DES CHARGES &quot;Spinnin Events&quot;
+
+Table des matières
+CAHIER DES CHARGES &quot;Spinnin Events&quot; 1
+Qui sommes-nous ? 2
+Pourquoi avons-nous besoin d’un site web ? 2
+Notre public cible 2
+Identité visuelle 2
+Périmètre 2
+Fonctionnalités 3
+Front-Office 3
+Back-Office 4
+Cadre technique 4
+Technologies 4
+Besoins 4
+Hébergement 4
+
+Cahier des charges « Spinnin Events »
+
+Qui sommes-nous ?
+Spinnin Events est une filiale du label hollandais Spinnin Records comprenant de gros
+artistes de musique électronique comme Tiësto ou Martin Garrix.
+Spinnin Events en lui-même a été fondé afin de créer et promouvoir des évènements (créer
+des soirées, créer des festivals ou détenir des scènes dans d’autres grands festivals
+reconnus).
+Ça mise en route a été décidée suite aux conditions dégradées de la culture dans les
+différents pays européens. Les organisateurs historiques de festival étant toujours trop
+frileux sur le fait de recommencer, Spinnin Records met la main à la pâte pour permettre à
+ses artistes de jouter à nouveau devant leur public.
+Pourquoi avons-nous besoin d’un site web ?
+Nous avons besoin d’un site vitrine sur lequel les gens pourront trouver les différents
+évènements présent et à venir.
+Attention nous allons énormément partager les pages des évènements sur les réseaux
+sociaux pour les promouvoir, il faudra donc particulièrement faire attention à son
+intégration. Le SEO est également très important pour que les gens puissent retrouver nos
+évènements sur Google.
+Notre public cible
+Nous visons les auditeurs de notre label.
+Ceux-ci nous suivent déjà sur les réseaux sociaux mais également sur les plateformes de
+streaming comme Spotify et YouTube.
+Notre public étant international, nous souhaitons que notre site soit en Anglais tout comme
+notre site principal.
+Identité visuelle
+Vous devez vous baser sur notre site principal (https://spinninrecords.com/), l’utilisateur ne
+doit pas être perdu en passant d’un site à l’autre ! Le même design entre les deux sites serait
+souhaité.
+Périmètre
+Le site permettra à nos auditeurs d’être informés sur les différents évènements que nous
+organisons.
+L’achat de tickets se fait via le service de tickets de Fnac (https://www.fnactickets.be/). Cette
+gestion n’est donc pas prévue sur ce site. Cependant un lien précis vers l’évènement sur le
+site de la Fnac devra être présent afin de permettre à l’utilisateur d’acheter des entrées aux
+différents évènements.
+Le site se découpe en trois pages principales:
+1) La liste des évènements présents (du jour) et à venir ainsi que les favoris
+2) Le détail d’un évènement (qui sera fortement partagé sur les réseaux)
+3) La gestion des évènements
+
+Cahier des charges « Spinnin Events »
+À cela il est nécessaire d’ajouter un système d’inscription et de connexion afin de pouvoir
+gérer ses favoris.
+Une bannière tout au-dessus de la liste des évènements mettra en évidence l’évènement le
+plus proche (qui aura lieu bientôt).
+Fonctionnalités
+Front-Office
+Chaque page contiendra le header (menu) et le footer. Le header permettra de revenir sur la
+liste des évènements mais également d’aller sur le site principal
+(https://spinninrecords.com/) ainsi que de se connecter (ou s’inscrire). Celui-ci permettra
+aussi d’aller sur la page d’administration (Back-Office) une fois connecté avec les bons droits.
+Page d&#39;accueil (liste des évènements)
+Cette page devra afficher une liste d’évènements paginée (maximum 10 par page).
+Seuls les évènements présents (du jour même) ou futurs seront affichés sauf les favoris. En
+effet, tous les favoris, même passés, devront apparaitre dans la liste.
+Tout comme la page d’accueil du site de Spinnin Records, un bandeau devra être présent au-
+dessus de la page affichant le prochain évènement (le plus proche du jour).
+Par évènement, il faudra au minimum afficher l’image, le titre, la date de début ainsi que la
+date de fin de l’évènement.
+Il faudra également indiquer via un symbole qu’un évènement est un favori.
+Au clic sur un élément, l’utilisateur devra être redirigé vers le détail de cet évènement.
+Page de détail d’un évènement
+Il s’agit de l’affichage du détail d’un évènement.
+Cette page devra contenir les détails d’un évènement suivant :
+- Un titre
+- Une image
+- Une vidéo de teasing (YouTube)
+- Les dates/jours et leurs line-up (une line-up par date/jour)
+- Les infos pratiques comme l’adresse ainsi qu’un champ de texte libre
+- Un lien vers l’achat de ticket (Fnac)
+- Une « checkbox » pour mettre l’évènement en favori.
+Page de connexion
+Via cette page, l’utilisateur devra pouvoir se connecter mais il doit également pouvoir
+s’inscrire.
+
+Cahier des charges « Spinnin Events »
+Cette page permettra aux utilisateurs de se connecter pour accéder aux favoris et permettra
+également d’avoir accès à la section admin si l’utilisateur en a le droit.
+Back-Office
+Chaque page contiendra le header (menu) et le footer. Le header permettra de revenir sur la
+liste des évènements, d’aller sur le site principal (https://spinninrecords.com/) ainsi que de
+se déconnecter.
+Page de liste d’évènements
+Similaire à la liste du Front-Office mais au clic sur l’élément, l’utilisateur doit être redirigé
+vers l’édition.
+Page d’édition de l’évènement
+Il doit être possible de créer et éditer un évènement. Cet évènement contient:
+- Un titre
+- Une image
+- Une vidéo de teasing (YouTube)
+- Les dates/jours et leurs line-up (une line-up par date/jour)
+- Les infos pratiques comme l’adresse ainsi qu’un champ de texte libre
+- Un lien vers l’achat de ticket (Fnac)
+Cadre technique
+Technologies
+Pour les préférences technologiques, n’ayant pas encore se service informatique, nous
+laissons libre choix au prestataire lors de l’analyse technique du projet.
+Besoins
+Le site doit impérativement être “social media friendly” ainsi qu’avoir un bon SEO.
+Hébergement
+Nous ne voulons pas gérer l’hébergement nous-mêmes et donc laissons le prestataire choisir
+la plateforme cloud adéquate.
