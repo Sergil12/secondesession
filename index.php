@@ -1,17 +1,27 @@
-<?php 
-
-require_once './helpers/auth-helper.php';
-
-//redirect('./articles' , true); //la page d'accueil sera toujours rediriger vers articles et le true empeche que l'on demande au serveur 
-
-?>
-
-
-<!DOCTYPE html>
-<html lang="fr">
-<?php $title = "Acceuil" ; require "./head.php" ?> <!-- Require = mettre tout ce que il y a dans le head ici  et le $title c est pour que on sache quoi afficher -->
-<body>
-   <?php require "./header.php"; ?> <!-- on ajoute ce que il y a dans le footer et le header-->
-   <?php require "./footer.php"; ?>
-</body>
+<html>
+    <head>
+       <meta charset="utf-8">
+    </head>
+    <body background="img/background.jpg">
+        <div style='text-align: center'>
+            <form action="verification.php" method="POST">
+                <h1>Connection</h1>
+                <b>Username</b>
+                <br>
+                <input type="text" placeholder="Enter the username" name="nomUtilisateur" required>
+                <br>
+                <b>Password</b>
+                <br>
+                <input type="password" placeholder="Enter the password" name="motDePasse" required>
+                <br><br>
+                <input type="submit" value='Login'>
+            </form>
+            <?php
+                if(isset($_GET['erreur']))
+                {
+                    echo "<p style='color:red'>Utilisateur ou mot de passe incorrect</p>";
+                }
+            ?>
+        </div>
+    </body>
 </html>
