@@ -1,0 +1,24 @@
+CREATE TABLE IF NOT EXISTS users(
+    id int(4) NOT NULL AUTO_INCREMENT, 
+	username VARCHAR(50) NOT NULL, 
+	password VARCHAR(255) NOT NULL,
+    admin int(11) NOT NULL,
+    PRIMARY KEY (id)
+)ENGINE = INNODB;
+
+CREATE TABLE IF NOT EXISTS events(
+    id int(11) NOT NULL AUTO_INCREMENT, 
+    title VARCHAR(100) NOT NULL,
+	address VARCHAR(100) NOT NULL, 
+	link_yt VARCHAR(300) NOT NULL,
+    image int(11) NOT NULL,
+    date DATETIME NOT NULL,
+    PRIMARY KEY (id)
+)ENGINE = INNODB;
+
+CREATE TABLE IF NOT EXISTS files(
+    id int(11) NOT NULL AUTO_INCREMENT,
+    mime varchar(255) NOT NULL,
+    data LONGBLOB NOT NULL,
+    PRIMARY KEY (id)
+)ENGINE = INNODB;

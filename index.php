@@ -66,6 +66,7 @@ if(!isset($_GET["page"])){
         $row3 = $result3->fetch_assoc();
         $image = $row3["data"];
     ?>
+       <div class="row-justify-content-end align-items-center">
          <div class="card shadow p-3 mb-5" style="width: 18rem;">
              <?php
                 echo '<img class="card-img-top" alt="Card image cap" src="data:image/jpeg;base64,'.base64_encode($image).'"/>';
@@ -77,6 +78,7 @@ if(!isset($_GET["page"])){
                  <a href="detail.php?id=<?php echo $id ?>" class="btn btn-info">Details</a>
              </div>
          </div>
+        </div>
 
     <?php  
     }
