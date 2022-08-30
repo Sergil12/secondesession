@@ -18,6 +18,20 @@ if(!isset($_GET["page"])){
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
      <link rel="stylesheet" href="style.css">
+     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+     <script>
+        function changeColorHeart(id) {
+            if (document.getElementById(id).classList.contains('fa-heart-o')){
+                document.getElementById(id).classList.remove('fa-heart-o');
+                document.getElementById(id).classList.add('fa-heart');
+            }
+            else if (document.getElementById(id).classList.contains('fa-heart')){
+                document.getElementById(id).classList.remove('fa-heart');
+                document.getElementById(id).classList.add('fa-heart-o');
+            }
+        }
+    </script>
  </head>
  <body>
      <?php require_once "header.php"; ?>
@@ -66,6 +80,7 @@ if(!isset($_GET["page"])){
         $row3 = $result3->fetch_assoc();
         $image = $row3["data"];
     ?>
+    <div class="carte">
        <div class="row-justify-content-end align-items-center">
          <div class="card shadow p-3 mb-5" style="width: 18rem;">
              <?php
@@ -76,10 +91,13 @@ if(!isset($_GET["page"])){
                  <p class="card-text"><?php echo $date->format('d/m/Y')?> </p>
                  <p class="card-text"><?php echo $address?> </p>
                  <a href="detail.php?id=<?php echo $id ?>" class="btn btn-info">Details</a>
+                 <br>
+                 <br>
+                 <i class="fa fa-heart-o fa-3x" id="<?php echo $id?>" onClick="changeColorHeart(<?php echo $id ?>)"></i>
              </div>
          </div>
         </div>
-
+    </div>
     <?php  
     }
     if($nb_rows <= $limit){
